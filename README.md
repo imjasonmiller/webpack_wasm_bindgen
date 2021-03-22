@@ -1,6 +1,9 @@
 Repository is relevant to an issue with Webpack 5 and WebAssembly.
 
-Running `npm run serve` will give the following error:
+* Run `npm i` inside of the `www` directory.
+* Run `npm run serve`.
+
+After starting the server, this will give the following error in your browser's console:
 
 ```none
 TypeError: can't access property "__wbindgen_malloc", _index_bg_wasm__WEBPACK_IMPORTED_MODULE_0__ is undefined
